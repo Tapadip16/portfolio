@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  text-align: center;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.footer__copyright {
+  font-size: var(--size-lg);
+  margin-left: 1rem;
+}
+
+.icon-link {
+  display: inline-block;
+  color: var(--color-light);
+  font-size: var(--size-3xl);
+  margin-right: 1rem;
+}
+
+.icon-link:hover {
+  color: var(--color-red);
+  margin-top: -8px;
+}
+
+/* ex small */
+/* @media (min-width: 475px) {} */
+
+/* small */
+/* @media (min-width: 640px) {} */
+
+/* medium */
+/* @media (min-width: 768px) {} */
+
+/* large */
+/* @media (min-width: 1024px) {} */
+
+/* ex large */
+/* @media (min-width: 1280px) {} */
+
+/* 2ex large */
+/* @media (min-width: 1536px) {} */
